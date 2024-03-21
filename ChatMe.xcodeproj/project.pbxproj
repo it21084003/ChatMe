@@ -1,0 +1,558 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DEA4D2B84BB7F1EB9E447E38 /* Pods_ChatMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D0048EAF3B17450BE3B6D63 /* Pods_ChatMe.framework */; };
+		F7004D302BA88F2B00294B12 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D2F2BA88F2B00294B12 /* AppDelegate.swift */; };
+		F7004D322BA88F2B00294B12 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D312BA88F2B00294B12 /* SceneDelegate.swift */; };
+		F7004D342BA88F2B00294B12 /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D332BA88F2B00294B12 /* ConversationsViewController.swift */; };
+		F7004D372BA88F2B00294B12 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7004D352BA88F2B00294B12 /* Main.storyboard */; };
+		F7004D3A2BA88F2B00294B12 /* ChatMe.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F7004D382BA88F2B00294B12 /* ChatMe.xcdatamodeld */; };
+		F7004D3C2BA88F2F00294B12 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F7004D3B2BA88F2F00294B12 /* Assets.xcassets */; };
+		F7004D3F2BA88F2F00294B12 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F7004D3D2BA88F2F00294B12 /* LaunchScreen.storyboard */; };
+		F7004D4D2BA8930A00294B12 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D4C2BA8930A00294B12 /* LoginViewController.swift */; };
+		F7004D4F2BA8932700294B12 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D4E2BA8932700294B12 /* RegisterViewController.swift */; };
+		F7004D512BA8935200294B12 /* PhotoViewerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D502BA8935200294B12 /* PhotoViewerViewController.swift */; };
+		F7004D532BA8936900294B12 /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D522BA8936900294B12 /* VideoPlayerViewController.swift */; };
+		F7004D552BA893AB00294B12 /* NewConversationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D542BA893AB00294B12 /* NewConversationViewController.swift */; };
+		F7004D572BA893C100294B12 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7004D562BA893C100294B12 /* ProfileViewController.swift */; };
+		F7C290842BAADDC40047136C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F7C290832BAADDC40047136C /* GoogleService-Info.plist */; };
+		F7C290862BAB39170047136C /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7C290852BAB39170047136C /* ChatViewController.swift */; };
+		F7E235AA2BA9532A00DA5B7D /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7E235A92BA9532A00DA5B7D /* Extensions.swift */; };
+		F7FC9B2B2BA99662008A4620 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FC9B2A2BA99662008A4620 /* DatabaseManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		22BF87C5CDDB552CB215ADDD /* Pods-ChatMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMe.release.xcconfig"; path = "Target Support Files/Pods-ChatMe/Pods-ChatMe.release.xcconfig"; sourceTree = "<group>"; };
+		9D0048EAF3B17450BE3B6D63 /* Pods_ChatMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5F877C00071366D441715B6 /* Pods-ChatMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatMe.debug.xcconfig"; path = "Target Support Files/Pods-ChatMe/Pods-ChatMe.debug.xcconfig"; sourceTree = "<group>"; };
+		F7004D2C2BA88F2B00294B12 /* ChatMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F7004D2F2BA88F2B00294B12 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F7004D312BA88F2B00294B12 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F7004D332BA88F2B00294B12 /* ConversationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationsViewController.swift; sourceTree = "<group>"; };
+		F7004D362BA88F2B00294B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F7004D392BA88F2B00294B12 /* ChatMe.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ChatMe.xcdatamodel; sourceTree = "<group>"; };
+		F7004D3B2BA88F2F00294B12 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F7004D3E2BA88F2F00294B12 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F7004D402BA88F2F00294B12 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F7004D4C2BA8930A00294B12 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		F7004D4E2BA8932700294B12 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		F7004D502BA8935200294B12 /* PhotoViewerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewerViewController.swift; sourceTree = "<group>"; };
+		F7004D522BA8936900294B12 /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		F7004D542BA893AB00294B12 /* NewConversationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewConversationViewController.swift; sourceTree = "<group>"; };
+		F7004D562BA893C100294B12 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		F7C290832BAADDC40047136C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F7C290852BAB39170047136C /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		F7E235A92BA9532A00DA5B7D /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F7FC9B2A2BA99662008A4620 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		F7FC9B302BA9F8D5008A4620 /* ChatMe.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ChatMe.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F7004D292BA88F2B00294B12 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DEA4D2B84BB7F1EB9E447E38 /* Pods_ChatMe.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4F5546147A9EFAE87334ADB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D5F877C00071366D441715B6 /* Pods-ChatMe.debug.xcconfig */,
+				22BF87C5CDDB552CB215ADDD /* Pods-ChatMe.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B7BAC60A329DEBDB5FF66FA5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D0048EAF3B17450BE3B6D63 /* Pods_ChatMe.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7004D232BA88F2B00294B12 = {
+			isa = PBXGroup;
+			children = (
+				F7004D2E2BA88F2B00294B12 /* ChatMe */,
+				F7004D2D2BA88F2B00294B12 /* Products */,
+				B4F5546147A9EFAE87334ADB /* Pods */,
+				B7BAC60A329DEBDB5FF66FA5 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F7004D2D2BA88F2B00294B12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F7004D2C2BA88F2B00294B12 /* ChatMe.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F7004D2E2BA88F2B00294B12 /* ChatMe */ = {
+			isa = PBXGroup;
+			children = (
+				F7C290832BAADDC40047136C /* GoogleService-Info.plist */,
+				F7FC9B302BA9F8D5008A4620 /* ChatMe.entitlements */,
+				F7004D4A2BA8916F00294B12 /* Resources */,
+				F7004D492BA8915E00294B12 /* Views */,
+				F7004D482BA8915000294B12 /* Models */,
+				F7004D472BA8913F00294B12 /* ViewModels */,
+				F7004D462BA8912A00294B12 /* Controllers */,
+				F7004D402BA88F2F00294B12 /* Info.plist */,
+				F7004D382BA88F2B00294B12 /* ChatMe.xcdatamodeld */,
+			);
+			path = ChatMe;
+			sourceTree = "<group>";
+		};
+		F7004D462BA8912A00294B12 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F7004D332BA88F2B00294B12 /* ConversationsViewController.swift */,
+				F7004D582BA894D300294B12 /* Login */,
+				F7004D502BA8935200294B12 /* PhotoViewerViewController.swift */,
+				F7004D522BA8936900294B12 /* VideoPlayerViewController.swift */,
+				F7004D542BA893AB00294B12 /* NewConversationViewController.swift */,
+				F7004D562BA893C100294B12 /* ProfileViewController.swift */,
+				F7C290852BAB39170047136C /* ChatViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F7004D472BA8913F00294B12 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		F7004D482BA8915000294B12 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F7004D492BA8915E00294B12 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F7004D4B2BA891B100294B12 /* Storyboards */,
+				F7004D3B2BA88F2F00294B12 /* Assets.xcassets */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F7004D4A2BA8916F00294B12 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7004D2F2BA88F2B00294B12 /* AppDelegate.swift */,
+				F7004D312BA88F2B00294B12 /* SceneDelegate.swift */,
+				F7E235A92BA9532A00DA5B7D /* Extensions.swift */,
+				F7FC9B2A2BA99662008A4620 /* DatabaseManager.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F7004D4B2BA891B100294B12 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				F7004D3D2BA88F2F00294B12 /* LaunchScreen.storyboard */,
+				F7004D352BA88F2B00294B12 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		F7004D582BA894D300294B12 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				F7004D4C2BA8930A00294B12 /* LoginViewController.swift */,
+				F7004D4E2BA8932700294B12 /* RegisterViewController.swift */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F7004D2B2BA88F2B00294B12 /* ChatMe */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F7004D432BA88F2F00294B12 /* Build configuration list for PBXNativeTarget "ChatMe" */;
+			buildPhases = (
+				E15DC1E8ADE20DC2F7EF6098 /* [CP] Check Pods Manifest.lock */,
+				F7004D282BA88F2B00294B12 /* Sources */,
+				F7004D292BA88F2B00294B12 /* Frameworks */,
+				F7004D2A2BA88F2B00294B12 /* Resources */,
+				E2D3979358E963BE235AB981 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ChatMe;
+			productName = ChatMe;
+			productReference = F7004D2C2BA88F2B00294B12 /* ChatMe.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F7004D242BA88F2B00294B12 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					F7004D2B2BA88F2B00294B12 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = F7004D272BA88F2B00294B12 /* Build configuration list for PBXProject "ChatMe" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F7004D232BA88F2B00294B12;
+			productRefGroup = F7004D2D2BA88F2B00294B12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F7004D2B2BA88F2B00294B12 /* ChatMe */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F7004D2A2BA88F2B00294B12 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7004D3F2BA88F2F00294B12 /* LaunchScreen.storyboard in Resources */,
+				F7C290842BAADDC40047136C /* GoogleService-Info.plist in Resources */,
+				F7004D3C2BA88F2F00294B12 /* Assets.xcassets in Resources */,
+				F7004D372BA88F2B00294B12 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		E15DC1E8ADE20DC2F7EF6098 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChatMe-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E2D3979358E963BE235AB981 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatMe/Pods-ChatMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ChatMe/Pods-ChatMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ChatMe/Pods-ChatMe-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7004D282BA88F2B00294B12 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F7004D342BA88F2B00294B12 /* ConversationsViewController.swift in Sources */,
+				F7004D3A2BA88F2B00294B12 /* ChatMe.xcdatamodeld in Sources */,
+				F7004D572BA893C100294B12 /* ProfileViewController.swift in Sources */,
+				F7004D302BA88F2B00294B12 /* AppDelegate.swift in Sources */,
+				F7004D512BA8935200294B12 /* PhotoViewerViewController.swift in Sources */,
+				F7004D4F2BA8932700294B12 /* RegisterViewController.swift in Sources */,
+				F7004D532BA8936900294B12 /* VideoPlayerViewController.swift in Sources */,
+				F7004D552BA893AB00294B12 /* NewConversationViewController.swift in Sources */,
+				F7FC9B2B2BA99662008A4620 /* DatabaseManager.swift in Sources */,
+				F7C290862BAB39170047136C /* ChatViewController.swift in Sources */,
+				F7004D4D2BA8930A00294B12 /* LoginViewController.swift in Sources */,
+				F7E235AA2BA9532A00DA5B7D /* Extensions.swift in Sources */,
+				F7004D322BA88F2B00294B12 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F7004D352BA88F2B00294B12 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7004D362BA88F2B00294B12 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F7004D3D2BA88F2F00294B12 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F7004D3E2BA88F2F00294B12 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F7004D412BA88F2F00294B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F7004D422BA88F2F00294B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F7004D442BA88F2F00294B12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F877C00071366D441715B6 /* Pods-ChatMe.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatMe/ChatMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXE4BTG6J4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anttmin.ChatMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F7004D452BA88F2F00294B12 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22BF87C5CDDB552CB215ADDD /* Pods-ChatMe.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ChatMe/ChatMe.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DXE4BTG6J4;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ChatMe/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow access to take a profile picture";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "Please allow access to select a photo for your profile";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.anttmin.ChatMe;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F7004D272BA88F2B00294B12 /* Build configuration list for PBXProject "ChatMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7004D412BA88F2F00294B12 /* Debug */,
+				F7004D422BA88F2F00294B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F7004D432BA88F2F00294B12 /* Build configuration list for PBXNativeTarget "ChatMe" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7004D442BA88F2F00294B12 /* Debug */,
+				F7004D452BA88F2F00294B12 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F7004D382BA88F2B00294B12 /* ChatMe.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F7004D392BA88F2B00294B12 /* ChatMe.xcdatamodel */,
+			);
+			currentVersion = F7004D392BA88F2B00294B12 /* ChatMe.xcdatamodel */;
+			path = ChatMe.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F7004D242BA88F2B00294B12 /* Project object */;
+}
